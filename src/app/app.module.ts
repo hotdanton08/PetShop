@@ -19,6 +19,9 @@ import { RegisterComponent } from './pages/register/register.component';
 import { CartComponent } from './pages/cart/cart.component';
 import { TestComponent } from './pages/test/test.component';
 import { CheckoutComponent } from './pages/checkout/checkout.component';
+import { ProductDetailComponent } from './pages/product-detail/product-detail.component';
+import { FaqComponent } from './pages/faq/faq.component';
+import { UserProfileComponent } from './pages/user-profile/user-profile.component';
 
 
 @NgModule({
@@ -30,6 +33,9 @@ import { CheckoutComponent } from './pages/checkout/checkout.component';
     CartComponent,
     TestComponent,
     CheckoutComponent,
+    ProductDetailComponent,
+    FaqComponent,
+    UserProfileComponent,
   ],
   imports: [
     BrowserModule,
